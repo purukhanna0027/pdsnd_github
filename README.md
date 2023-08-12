@@ -3,21 +3,21 @@
 ### Date created
 12th August 2023
 
-### Project Title
-Bike Share Data
+## Project Title
+Bike Share Data Learning Project
 
-### Description
-In this project, the statistics are computed regarding
-1 Popular times of travel (i.e., occurs most often at the start time)
-2 Popular stations and trip stats
-3 Trip duration stats
+### Project Description
+In this project, the *statistics* are computed regarding
+1. Popular times of travel (i.e., occurs most often at the start time)
+2. Popular stations and trip stats
+3. Trip duration stats
 
 ### Files used
 This project had been used the three files (source) listed below:
-chicago.csv
-new_york_city.csv
-washington.csv
+1. chicago.csv
+2. new_york_city.csv
+3. washington.csv
 
 ### Credits
 This project is a part of a learning project referenced from Udacity.
-More details can be accessed from learn.udacity.com
+More details can be accessed from [Udacity](learn.udacity.com)
