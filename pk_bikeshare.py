@@ -184,7 +184,7 @@ def user_stats(df):
     # Display counts of gender
     try:
         gender = df['Gender'].value_counts()
-        print(f"\nThe types of users by gender are given below:\n\n{gender}")
+        print(f"\nThe types of users by gender are given as:\n\n{gender}")
     except:
         print("\nThere is no 'Gender' column in this file.")
 
@@ -194,7 +194,7 @@ def user_stats(df):
         common_year = int(df['Birth Year'].mode()[0])
         print(f"\nThe earliest year of birth: {earliest}\n\nThe most recent year of birth: {recent}\n\nThe most common year of birth: {common_year}")
     except:
-        print("There are no birth year details in this file.")
+        print("There are no birth year details in this city, please try with another city.")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
